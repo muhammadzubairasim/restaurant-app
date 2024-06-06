@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-illustration{
+  width: max(50vw,250px);
+  height:max(70vh,600px);
+  background-image: url("../assets/hero-sec.jpg");
+  background-size: contain;
+  background-position: center center;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+.hero-cart{
+  height: 200px;
+  width: 200px;
+  background-image: url("../assets/cart-hero.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+}
+.add-to-cart-btn{
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(225, 238, 255);
+  border: 1px solid rgb(39, 95, 168);
+  color: black;
+  font-weight: bold;
+  transition: all ease 0.5s;
+  border-radius: 5px;
+}
+.add-to-cart-btn:hover {
+  transition: all ease 0.5s;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(39, 95, 168);
+  color: white;
+  font-weight: bold;
+}
